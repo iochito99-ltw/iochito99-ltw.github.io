@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #f5f5dc;
+  --theme-color: #e9ae55;
 }
 
 * {
@@ -47,7 +47,7 @@ ul {
   list-style: none;
 }
 li:before {
-  list-style-type: disk;
+  content: "• ";
   color: var(--theme-color);
 }
 
