@@ -47,7 +47,7 @@ ul {
   list-style: none;
 }
 li:before {
-  content: "★";
+  list-style-type: disk;
   color: var(--theme-color);
 }
 
